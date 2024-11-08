@@ -1,0 +1,6 @@
+CREATE THE IMAGE:
+docker build -t neumonia-covid-classification-image:1.0 . 
+
+#PUSH IMAGE TO DOCKER HUB
+docker tag neumonia-covid-classification-image:1.0 pneumonia-covid-classification
+docker push pneumonia-covid-classification
